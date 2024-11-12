@@ -19,3 +19,5 @@ def draw_triangle(side1, side2, side3):
     plt.axis('equal')
 
     plt.show()
+def close_graphic():
+    plt.close()
